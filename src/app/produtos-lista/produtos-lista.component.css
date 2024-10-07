@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.botao-verde {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+   
+
+}
+
+table {
+    margin-left: 2%;
+    margin-top: 2%;
+}
+

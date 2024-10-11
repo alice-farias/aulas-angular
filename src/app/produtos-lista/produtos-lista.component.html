@@ -11,7 +11,6 @@
       </tr>
     </thead>
     <tbody>
-      <!-- Simulação de dados -->
       <tr *ngFor="let produto of produtos">
         <td>{{ produto.id }}</td>
         <td>{{ produto.nome }}</td>
@@ -28,3 +27,9 @@
 <div class="d-flex justify-content-center mb-3">
   <button class="btn btn-success" [routerLink]="['/produtos-form']">Adicionar Produto</button>
 </div>
+
+<div class="footer">
+  <p>&copy; 2024, Alice Farias. Todos os direitos reservados.</p>
+  <p><a href="https://github.com/alice-farias">Github</a> | <a href="https://www.linkedin.com/in/alice-farias-%F0%9F%8F%B3%EF%B8%8F%E2%80%8D%F0%9F%8C%88-35a14b1b8/?locale=pt_BR">Linkedin</a></p>
+</div>
+

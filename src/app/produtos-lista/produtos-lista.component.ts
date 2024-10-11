@@ -22,6 +22,6 @@ export class ProdutosListaComponent implements OnInit {
 
   deletarProduto(id: number): void {
     this.produtoService.deleteProduto(id);
-    this.produtos = this.produtoService.getProdutos(); // Atualiza a lista após exclusão
+    this.produtos = this.produtoService.getProdutos();
   }
 }
